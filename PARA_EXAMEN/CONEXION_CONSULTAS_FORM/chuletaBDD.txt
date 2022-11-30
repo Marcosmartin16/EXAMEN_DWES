@@ -1,0 +1,139 @@
+*********ABRIR TERMINAL MARIADB************
+
+mariadb
+
+****************CREAR USUARIO Y BASE DE DATOS*********************
+
+CREATE DATABASE nombre;
+CREATE USER 'nombre'@'localhost' IDENTIFIED BY 'contraseña';
+GRANT ALL PRIVILEGES ON nombre.* TO 'nombre'@'nombre' WITH GRANT OPTION;
+
+*****MOSTRAR DATABASES******
+
+show databases;
+
+******USAR DATABASE*******
+
+use nombredatabase;
+
+*****MOSTRAR TABLAS******
+
+show tables;
+
+******CONEXION***********
+conectarse a localhost a la base de datos examen con el usuario examen sin poner contraseña de momento luego la pedira al pulsar enter
+
+mariadb -h 127.0.0.1 -u examen -p examen
+
+
+<a href="detalle.php?id=<?=$linea['id']?>"><?=$linea['nombre']?></a>
+
+
+
+
+*************************EXAMEN**************************************+++
+
+mezclar php con html
+funciones
+arrays
+cadenas
+objetos(herencia,polimorfismo,interfaces,abstractas,traits)
+formularios-get/post(Text, date, checkbox, textArea, select, radio)
+file, paginacion, ordenacion
+array_map
+array_reduce
+array_walk
+consultas(select, insert, delete, update)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*************usuarios******************
+examen/examen
+proyecto/proyecto
